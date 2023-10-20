@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif; 
+     
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 100% of the viewport height */  
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ff5733; /* Orange */
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #4287f5; /* Blue */
+  }
+  
+  input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff5733; /* Orange */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  button.btn-outline {
+    background-color: #4287f5;
+    color:white; /* Blue */
+    border: 1px solid #4287f5;
+  }
+  
+  .center {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #ff5733; /* Orange */
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+  /* Additional Styles */
+  body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .btn:hover {
+    background-color: #ff3d00; /* Darker Orange */
+  }
+  
+  .btn.btn-outline:hover {
+    background-color: #4287f5; /* Blue */
+    color: #fff;
+    border: 1px solid #4287f5;
+  }
+  
